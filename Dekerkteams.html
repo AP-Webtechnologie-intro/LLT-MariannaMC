@@ -3,57 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="stylesheet.css">
-
   <title>De verschillende kerk-teams</title>
 </head>
 <body>
-  <nav>
-    <img src="Opdracht1/Kerk/Logo/logo cmr christ mon redempteur.jpg" alt="logo-kerk" width="198px" height="73">
-    <ul>
-        <li><a href="Homepagina.html">Home</a></li>
-        <li><a href="Overzichtpagina.htm">About</a>
-          <ul>
-            <li> <a href="Devissieenmissie.html">  Vissie en Missie</a> </li>
-            <li> <a href="Dekerkteams.html">  De kerkteams</a></li>
-            <li> <a href="DePastoor.html">  De Pastoor </a></li>
-            <li> <a href="DeApostel.html"> De Apostel </a></li>
-            <li> <a href="DeProfeet.html">  De Profeet </a></li>
-            <li> <a href="Dekerkevents.html">  Kerkevents </a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Opdracht1/Kerk/Logo/logo_cmr_christ_mon_redempteur-removebg-preview.png" alt="Logo" width="198" height="73" class="d-inline-block align-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link"  href="Homepagina.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Overzichtpagina.htm" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Dekerkteams.html">kerkteams</a></li>
+              <li><a class="dropdown-item" href="Dekerkevents.html">Kerkevents</a></li>
+              <li><a class="dropdown-item" href="Devissieenmissie.html">vissie en missie</a></li>
+              <li><a class="dropdown-item" href="DePastoor.html">De pastoor</a></li>
+              <li><a class="dropdown-item" href="DeApostel.html">De apostel</a></li>
+              <li><a class="dropdown-item" href="DeProfeet.html">De profeet</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          
         </ul>
-      </li>
-        <li><a href="Contact.html">Contact</a></li>
-    </ul>
-</nav>
+        
+      </div>
+    </div>
+  </nav>
  <h2>De verschillende kerk-teams </h2> 
  <h4>We leggen de verschillende teams uit en waarom zij zo belangrijk zijn.</h4>
- <figure>
-  <img src="Opdracht1/Kerk/Afbeeldingen/Wit geklede mensen.jpg" alt="Zondagdienst tijdens pinksteren" width="500px" height="330px">
-  <figcaption> Zondagdienst tijdens pinksteren</figcaption>
- </figure>
-<h3> Team Protocol</h3>
-<p>Het kerkelijk protocol is van onschatbare waarde, omdat het de orde en eerbied weerspiegelt die we willen handhaven tijdens het aanroepen van Gods aanwezigheid. 
-  Dit protocol is relevant voor alle fasen van de eredienst: voor, tijdens en na de dienst.
-  Voorafgaand aan de dienst bereidt het protocol ons voor door stilte, gebed en toewijding.
-   Het helpt ons om ons hart en onze geest af te stemmen op Gods aanwezigheid en om Zijn heiligheid op de juiste manier te eren</p>
-   <h3>Team Social</h3>
-   <p>Het hoofddoel is om uitgenodigde leden actief te integreren in de kerk, zodat ze uit eigen beweging deelnemen aan diensten op zondagen,
-     woensdagen en online op dinsdagen. Dit kan verwezenlijkt worden door hen te begeleiden, je zorg voor hen te tonen en bereikbaar te zijn. 
 
-    De kern van deze aanpak is het uitdragen van liefde en begrip, met de nadruk op hun spiritueel welzijn. Dit vergt een hartelijke benadering boven en buiten louter intellectuele strategieën. 
-    Het doel is om mensen te behouden en te ondersteunen, zelfs als ze niet onmiddellijk reageren, door voortdurende betrokkenheid.</p>
-    <img src="Opdracht1/Kerk/Afbeeldingen/koordatdanst.jpg" alt="Koor dat aan het dansen is tijdens de zondagdienst" width="500px" height="330px">
-    <h3>Het Koor</h3>
-    <p>De Bijbel zit vol met muzikale vertellingen! Onder de vele getalenteerde muzikanten in de Bijbel, 
-      steekt koning David er met kop en schouders bovenuit. Hij was niet alleen een virtuoze harpist, maar tevens een briljante liedjesschrijver. 
-      Talrijke psalmen in de Bijbel zijn door zijn hand geschreven en worden tot op de dag van vandaag gezongen. 
-      Zijn passie voor muziek wordt duidelijk weerspiegeld in psalm 95.
+ <div class="my-5"></div>
 
-      Tijdens Bijbelse tijden werd muziek op diverse gelegenheden ten gehore gebracht, ongeacht of de tijden gunstig of moeilijk waren. Er zijn zelfs verhalen in de Bijbel waarin God muziek als middel gebruikt om conflicten tussen rivaliserende leiders te verzachten. 
-      Bovendien diende muziek als een vorm van aanbidding, een manier om een diepere spirituele verbinding met God te ervaren.</p>
-      <h3>Team Media</h3>
-      <p>De visie van de media team leunt op de Bijbelvers Mattheüs 28:19-20.
+  <div class="container mt-4">
+    <div class="row">
+      <div class="clearfix">
+        <figure class="col-md-6 float-md-start mb-3 ms-md-3">
+        <img src="Opdracht1/Kerk/Afbeeldingen/Wit geklede mensen.jpg" alt="Zondagdienst tijdens pinksteren" class="col-md-6 float-md-start mb-3 ms-md-3" style="width: 500px; height: 330px;">
+        <figcaption class="mt-2"> Zondagdienst tijdens pinksteren</figcaption>
+      </figure>
+        <h3 > Team Protocol </h3>
+        <p id="inhoudteamprotocol">Het kerkelijk protocol is van onschatbare waarde, omdat het de orde en eerbied weerspiegelt die we willen handhaven tijdens het aanroepen van Gods aanwezigheid. 
+          Dit protocol is relevant voor alle fasen van de eredienst: voor, tijdens en na de dienst.
+          Voorafgaand aan de dienst bereidt het protocol ons voor door stilte, gebed en toewijding.
+           Het helpt ons om ons hart en onze geest af te stemmen op Gods aanwezigheid en om Zijn heiligheid op de juiste manier te eren</p>
+           <h3> Team Social</h3>
+            <p id="inhoudteamsocial">Het hoofddoel is om uitgenodigde leden actief te integreren in de kerk, zodat ze uit eigen beweging deelnemen aan diensten op zondagen,
+               woensdagen en online op dinsdagen. Dit kan verwezenlijkt worden door hen te begeleiden, je zorg voor hen te tonen en bereikbaar te zijn. 
+
+               De kern van deze aanpak is het uitdragen van liefde en begrip, met de nadruk op hun spiritueel welzijn. Dit vergt een hartelijke benadering boven en buiten louter intellectuele strategieën. 
+               Het doel is om mensen te behouden en te ondersteunen, zelfs als ze niet onmiddellijk reageren, door voortdurende betrokkenheid.</p>
+      </div>
+    </div>
+  </div>
+<div class="clearfix mt-4">
+ <img src="Opdracht1/Kerk/Afbeeldingen/koordatdanst.jpg" alt="Koor dat aan het dansen is tijdens de zondagdienst" class="col-md-6 float-md-end mb-3 ms-md-3"  style="width: 500px; height: 330px;"> 
+<h3>Het Koor</h3>
+<p id="inhoudteamkoor">De Bijbel zit vol met muzikale vertellingen! Onder de vele getalenteerde muzikanten in de Bijbel, 
+  steekt koning David er met kop en schouders bovenuit. Hij was niet alleen een virtuoze harpist, maar tevens een briljante liedjesschrijver. 
+  Talrijke psalmen in de Bijbel zijn door zijn hand geschreven en worden tot op de dag van vandaag gezongen. 
+  Zijn passie voor muziek wordt duidelijk weerspiegeld in psalm 95.
+
+  Tijdens Bijbelse tijden werd muziek op diverse gelegenheden ten gehore gebracht, ongeacht of de tijden gunstig of moeilijk waren. Er zijn zelfs verhalen in de Bijbel waarin God muziek als middel gebruikt om conflicten tussen rivaliserende leiders te verzachten. 
+  Bovendien diende muziek als een vorm van aanbidding, een manier om een diepere spirituele verbinding met God te ervaren.</p>
+  <h3>Team Media</h3>
+      <p id="inhoudteammedia">De visie van de media team leunt op de Bijbelvers Mattheüs 28:19-20.
          Het doel van de media team om deze missie die Jezus aan elk van zijn volgeling heeft gegeven te volbrengen en dit doen wij door gebruik te maken van sociale media en beeldvisualisatie.
 
         In de visie van CMR wordt er vermeld dat de kerk “een steeds betere getuigenis van en voor het Evangelie wilt brengen naar onze samenleving”. 
@@ -64,58 +94,86 @@
         Wij willen de volmaakte liefde, goedheid en genade te tonen van God. 
         Velen mensen hebben de godsdienst de rug toegekeerd de voorbije jaren, 
         maar wij geloven dat het nog niet te laat is om mensen God te laten herontdekken door gebruik te maken van media.</p>
-<figure> 
-  <img src="Opdracht1/Kerk/Afbeeldingen/vertalers.jpg" alt="Vertaling tijdens eenonderwijzing" width="500px" height="330px">
-  <figcaption> Voorbeeld van de vertalers in hun functie</figcaption>
+
+</div>
+<div class="clearfix mt-4">
+  <figure class="col-md-6 float-md-start mb-3 ms-md-3">
+  <img src="Opdracht1/Kerk/Afbeeldingen/vertalers.jpg" alt="Vertaling tijdens eenonderwijzing" class="col-md-6 float-md-start mb-3 ms-md-3" style="width: 500px; height: 330px;">
+  <figcaption class="mt-2"> Vertalers tijdens een dienst</figcaption>
 </figure>
 <h3>Team Evangelisatie</h3>
-<p>Het voornaamste doel van evangelisatie is de blijde boodschap van God delen met hen die er nog niet mee bekend zijn, want als christenen dragen we de verantwoordelijkheid om Zijn woord en liefde te verspreiden. We hebben de opdracht om het licht van Zijn genade te laten schijnen in de duisternis van onwetendheid en ongeloof. 
+<p id="inhoudteamevangelisatie">Het voornaamste doel van evangelisatie is de blijde boodschap van God delen met hen die er nog niet mee bekend zijn, want als christenen dragen we de verantwoordelijkheid om Zijn woord en liefde te verspreiden. We hebben de opdracht om het licht van Zijn genade te laten schijnen in de duisternis van onwetendheid en ongeloof. 
   Onze roeping is om te voorkomen dat mensen verloren gaan, en in plaats daarvan de weg naar verlossing te wijzen.</p>
   <h3>Team vertalers</h3>
-  <p>Als vertalers van het Woord van God is onze rol van uiterst belang voor degenen die de huidige spreker mogelijk niet kunnen verstaan. Het is onze diepgewortelde overtuiging dat iedereen het goede nieuws van God zou moeten kunnen horen en begrijpen. We voelen een diepe verantwoordelijkheid om ervoor te zorgen dat het Woord van God toegankelijk is voor iedere ziel, ongeacht hun taal of achtergrond. 
+  <p id="inhoudteamvertalers"> Als vertalers van het Woord van God is onze rol van uiterst belang voor degenen die de huidige spreker mogelijk niet kunnen verstaan. Het is onze diepgewortelde overtuiging dat iedereen het goede nieuws van God zou moeten kunnen horen en begrijpen. We voelen een diepe verantwoordelijkheid om ervoor te zorgen dat het Woord van God toegankelijk is voor iedere ziel, ongeacht hun taal of achtergrond. 
 
     Met een nederige toewijding werken we onvermoeibaar om ervoor te zorgen dat niemand wordt buitengesloten van de boodschap van liefde, genade en verlossing die God ons heeft gegeven. We zien het als onze roeping om barrières te doorbreken en bruggen te slaan tussen talen en culturen, en we streven ernaar om het goede nieuws zo duidelijk en inspirerend mogelijk over te brengen. We geloven dat wanneer mensen worden aangeraakt door het Woord van God, hun harten en levens veranderd kunnen worden.
-    
     Onze missie als vertalers is doordrongen van een diep gevoel van toewijding aan God en de overtuiging dat Zijn woorden van eeuwige waarde zijn. We koesteren de kans om de boodschap van God te delen en willen ervoor zorgen dat Zijn liefde en genade voor iedereen toegankelijk is.</p>
-     
-    <h2>De bijbelverzen die overeenkomen met de doelen van de teams</h2>
+</div>
 
-    <details>
-        <summary>Het Koor</summary>
-        <p>Kom, laten wij vrolijk zingen voor de HEERE,
-          laten wij juichen voor de rots van ons heil.
-          Laten wij Zijn aangezicht tegemoet gaan met een loflied,
-          laten wij voor Hem juichen met psalmen.
-         Psalm 95:1-2</p>
-    </details>
+<div class="container mt-5">
+  <h2>De bijbelverzen die overeenkomen met de doelen van de teams</h2>
+  
+  <div class="accordion" id="toggleList">
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="section1Heading">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section1Collapse" aria-expanded="true" aria-controls="section1Collapse">
+                 Het Koor
+              </button>
+          </h2>
+          <div id="section1Collapse" class="accordion-collapse collapse show" aria-labelledby="section1Heading" data-bs-parent="#toggleList">
+              <div class="accordion-body">
+                <p>Kom, laten wij vrolijk zingen voor de HEERE,
+                  laten wij juichen voor de rots van ons heil.
+                  Laten wij Zijn aangezicht tegemoet gaan met een loflied,
+                  laten wij voor Hem juichen met psalmen.
+                 Psalm 95:1-2</p>
+              </div>
+          </div>
+      </div>
 
-    <details>
-        <summary>Team Evangelisatie</summary>
-        <p>Ga dan heen, onderwijs al de volken, hen dopend in de Naam van de Vader en van de Zoon en van de Heilige Geest, hun lerend alles wat Ik u geboden heb, in acht te nemen.
-          En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.
-         Mattheüs 28:19-20</p>
-    </details>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="section2Heading">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section2Collapse" aria-expanded="false" aria-controls="section2Collapse">
+                  Team Evangelisatie
+              </button>
+          </h2>
+          <div id="section2Collapse" class="accordion-collapse collapse" aria-labelledby="section2Heading" data-bs-parent="#toggleList">
+              <div class="accordion-body">
+                <p>Ga dan heen, onderwijs al de volken, hen dopend in de Naam van de Vader en van de Zoon en van de Heilige Geest, hun lerend alles wat Ik u geboden heb, in acht te nemen.
+                  En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.
+                 Mattheüs 28:19-20</p>
+              </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="section3Heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#section2Collapse" aria-expanded="false" aria-controls="section2Collapse">
+                Team Media
+            </button>
+        </h2>
+        <div id="section3Collapse" class="accordion-collapse collapse" aria-labelledby="section2Heading" data-bs-parent="#toggleList">
+            <div class="accordion-body">
+              <p>Ga dan heen, onderwijs al de volken, hen dopend in de Naam van de Vader en van de Zoon en van de Heilige Geest, hun lerend alles wat Ik u geboden heb, in acht te nemen.
+                En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.
+               Mattheüs 28:19-20</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
 
-    <details>
-      <summary>Team Media</summary>
-      <p>Ga dan heen, onderwijs al de volken, hen dopend in de Naam van de Vader en van de Zoon en van de Heilige Geest, hun lerend alles wat Ik u geboden heb, in acht te nemen.
-        En zie, Ik ben met u al de dagen, tot de voleinding van de wereld. Amen.
-       Mattheüs 28:19-20</p>
-  </details>
-
-  <footer>
-    <h2>Contact Us</h2>
-          <img class="contact-image" src="Opdracht1/Kerk/Afbeeldingen/Foto's.van.het.koor.jpg" alt="Contact Image" width="1400px" height="400px">
-          <p> <a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a></p>
-          <p>Cogelsplein 33, 2100 Antwerpen</p>
-          <h4>Socials</h4>
-            <a href="https://www.facebook.com/eglise.cmr" class="fab fa-facebook fa-3x"></a>
-            <a href="https://www.instagram.com/cmrchurch/?next=undefined" class="fab fa-instagram fa-3x"></a>
-            <a href="https://www.tiktok.com/@cmrchurch?_t=8cD7Wcluvwx&_r=1" ></a>
-          
+  <footer class="bg-light text-while text-center py-4">
+    <div class="container">
+      <img src="Opdracht1/Kerk/Afbeeldingen/Foto's.van.het.koor.jpg" alt="Foto van het koor" class="img-fluid mt-3" style="width: 100%; max-height: 400px;">
+    </div>
+    <p class="text-start"> <a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a></p>
+    <p class="text-start">Cogelsplein 33, 2100 Antwerpen</p>
+    <h4>Socials</h4>
+      <a href="https://www.facebook.com/eglise.cmr" class="fab fa-facebook fa-3x"></a>
+      <a href="https://www.instagram.com/cmrchurch/?next=undefined" class="fab fa-instagram fa-3x"></a>
+      <a href="https://www.tiktok.com/@cmrchurch?_t=8cD7Wcluvwx&_r=1" ></a>
   </footer>
-  
-  
   
   
   
