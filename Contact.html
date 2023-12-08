@@ -13,7 +13,7 @@
   <title>Contact</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="Opdracht1/Kerk/Logo/logo_cmr_christ_mon_redempteur-removebg-preview.png" alt="Logo" width="198" height="73" class="d-inline-block align-top">
@@ -31,6 +31,7 @@
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="Overzichtpagina.htm">About</a></li>
               <li><a class="dropdown-item" href="Dekerkteams.html">kerkteams</a></li>
               <li><a class="dropdown-item" href="Dekerkevents.html">Kerkevents</a></li>
               <li><a class="dropdown-item" href="Devissieenmissie.html">vissie en missie</a></li>
@@ -51,107 +52,139 @@
 
   <div class="container">
     <div class="row">
-      <main class="col-md-9 pe-3">
-        <section id="contact" class="row">
-          <div class="col-12 mb-3">
-            <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contacteer de kerk</h2>
-            <p>Vul dit formulier in als je iets wilt weten over de kerk of een vraag hebt.</p>
-            <p><a href="mailto:cmr@gmail.com">cmrkerk@gmail.com</a></p>
-          </div>
-          <form action="#" method="post">
-            <fieldset class="row g-3 mb-3">
-              <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
-              <div class="col-md-12">
-                <label for="firstName" class="form-label">Naam:<span></span></label>
-                <input type="text" class="form-control" id="firstName" required>
-              </div>
-              <div class="col-md-12">
-                <label for="lastName" class="form-label">Onderwerp:<span></span></label>
-                <input type="text" class="form-control" id="subject" required>
-              </div>
-              <div class="col-md-12">
-                <label for="lastName" class="form-label">Email: <span></span></label>
-                <input type="text" class="form-control" id="email" required>
-              </div>
-              <div class="col-md-12">
-                <label for="lastName" class="form-label">Bericht:<span></span></label>
-                <input type="text" class="form-control" id="message" required>
-              </div>
-              <div class="col-12">
-                <a href="mailto:cmrkerk@gmail.com"><button type="submit" class="btn btn-success">verzenden</button></a>
-              </div>
-            </fieldset>
-          </form>
+        <main class="col-md-9 pe-3">
+            <section id="contact" class="row">
+                <div class="col-md-6 mb-3">
+                    <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contacteer de kerk</h2>
+                    <p>Vul dit formulier in als je iets wilt weten over de kerk of een vraag hebt.</p>
+                    <p><a href="mailto:cmr@gmail.com">cmrkerk@gmail.com</a></p>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" method="post">
+                        <fieldset class="row g-3 mb-3">
+                            <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
+                            <div class="col-12">
+                                <label for="firstName" class="form-label">Naam:<span></span></label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Onderwerp:<span></span></label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email: <span></span></label>
+                                <input type="text" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Bericht:<span></span></label>
+                                <input type="text" class="form-control" id="message" required>
+                            </div>
+                            <div class="col-12">
+                                <a href="mailto:cmrkerk@gmail.com"><button type="submit" class="btn btn-success">verzenden</button></a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
 
-
+<div class="pb-4"></div>
+<div class="pt-4"></div>
 
 <div class="container">
   <div class="row">
-    <main class="col-md-9 pe-3">
-      <section id="contact" class="row">
-        <div class="col-12 mb-3">
-          <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contacteer de webdesigner</h2>
-          <p>Als de website je aanstaat en je wilt ook één kan je contact nemen met de webdesigner.</p>
-          <p><a href="mailto:WebX@gmail.com">WebX@gmail.com</a></p>
-        </div>
-        <form action="#" method="post">
-          <fieldset class="row g-3 mb-3">
-            <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
-            <div class="col-md-12">
-              <label for="firstName" class="form-label">Naam:<span></span></label>
-              <input type="text" class="form-control" id="firstName" required>
-            </div>
-            <div class="col-md-12">
-              <label for="lastName" class="form-label">Onderwerp:<span></span></label>
-              <input type="text" class="form-control" id="subject" required>
-            </div>
-            <div class="col-md-12">
-              <label for="lastName" class="form-label">Email: <span></span></label>
-              <input type="text" class="form-control" id="email" required>
-            </div>
-            <div class="col-md-12">
-              <label for="lastName" class="form-label">Bericht:<span></span></label>
-              <input type="text" class="form-control" id="message" required>
-            </div>
-            <div class="col-12">
-              <a href="mailto:cmrkerk@gmail.com"><button type="submit" class="btn btn-success">verzenden</button></a>
-            </div>
-          </fieldset>
-        </form>
-</form>
-<h1>Het hoofdkantoor van WebX</h1>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2498.3921419694443!2d4.4142116000000025!3d51.23027250000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1snl!2sbe!4v1699354471578!5m2!1snl!2sbe" width="600" height="450" style="border:0;" 
-allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<p>
-  Adres:Noorderplaats 2, 2000 Antwerpen
-</p>
+      <main class="col-md-9 pe-3">
+          <section id="contact" class="row">
+              <div class="col-md-6 mb-3">
+                  <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contacteer de webdesigner</h2>
+                  <p>Als de website je aanstaat en je wilt ook één kan je contact nemen met de webdesigner.</p>
+                  <p><a href="mailto:WebX@gmail.com">WebX@gmail.com</a></p>
+              </div>
+              <div class="col-md-6">
+                  <form action="#" method="post">
+                      <fieldset class="row g-3 mb-3">
+                          <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
+                          <div class="col-12">
+                              <label for="firstName" class="form-label">Naam:<span></span></label>
+                              <input type="text" class="form-control" id="firstName" required>
+                          </div>
+                          <div class="col-12">
+                              <label for="subject" class="form-label">Onderwerp:<span></span></label>
+                              <input type="text" class="form-control" id="subject" required>
+                          </div>
+                          <div class="col-12">
+                              <label for="email" class="form-label">Email: <span></span></label>
+                              <input type="text" class="form-control" id="email" required>
+                          </div>
+                          <div class="col-12">
+                              <label for="message" class="form-label">Bericht:<span></span></label>
+                              <input type="text" class="form-control" id="message" required>
+                          </div>
+                          <div class="col-12">
+                              <a href="mailto:WebX@gmail.com"><button type="submit" class="btn btn-success">verzenden</button></a>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </section>
+      </main>
+  </div>
+</div>
+
+
+<div class="container mt-4 text-center">
+  <h1>Het hoofdkantoor van WebX</h1>
+  
+  <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2498.3921419694443!2d4.4142116000000025!3d51.23027250000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1snl!2sbe!4v1699354471578!5m2!1snl!2sbe" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+
+  <p class="mt-3">
+      Adres: Noorderplaats 2, 2000 Antwerpen
+  </p>
+</div>
 
 
 
-<footer>
-  <h2>Contact Us</h2>
-        <img class="contact-image" src="Opdracht1/Kerk/Afbeeldingen/Foto's.van.het.koor.jpg" alt="Contact Image" width="1400px" height="400px">
-        <p>Cogelsplein 33, 2100 Antwerpen</p>
-        <h4>Socials</h4>
 
-        <p>CONTACTGEGEVENS<br>
-          email <a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a><br> </p>
-        <ul class="list-inline socials">
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com" target="_blank">
-              <i class="bi bi-youtube koffiebruin fs-3"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com" target="_blank">
-              <i class="bi bi-instagram koffiebruin fs-3"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="bi bi-facebook koffiebruin fs-3"></i>
-            </a>
-        
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-6">
+              <h5 class="text-start display-3">Contact Us</h5>
+              <p class="text-start">Cogelsplein 33, 2100 Antwerpen</p>
+              <p class="text-start"><a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a></p>
+          </div>
+
+          <div class="col-md-6">
+              <div>
+                  <h5 class="text-end display-3">Socials</h5>
+              </div>
+              <ul class="list-inline socials text-end">
+                  <li class="list-inline-item">
+                      <a href="https://www.instagram.com/cmrchurch/?next=undefined" target="_blank">
+                          <i class="bi bi-instagram fs-3"></i>
+                      </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="https://www.facebook.com/eglise.cmr" target="_blank">
+                          <i class="bi bi-facebook fs-3"></i>
+                      </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="https://www.tiktok.com/@cmrchurch?_t=8cD7Wcluvwx&_r=1" target="_blank">
+                          <i class="bi bi-tiktok fs-3"></i>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
 </footer>
 </body>
 </html>
