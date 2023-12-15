@@ -49,6 +49,19 @@ body{
 width: 50%;
 height: 15rem;
   }
+  #vertalers{
+    width: 50%;
+    height: 15rem;
+  }
+  #hetkoor{
+    width: 50%;
+    height: 15rem;
+  }
+  #pinksteren{
+    width: 50%;
+    height: 15rem;
+  }
+  
 }
 h3{
   font-weight: bold;

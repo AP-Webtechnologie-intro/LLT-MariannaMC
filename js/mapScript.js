@@ -10,7 +10,7 @@ let CMRIcon = L.icon({
 
   iconSize:     [60, 60], 
   iconAnchor:   [0, 60], 
-  popupAnchor:  [0, 0] 
+  popupAnchor:  [0, 0], 
 });
 
 L.marker([51.23009, 4.41616], {icon: CMRIcon}).addTo(map);
