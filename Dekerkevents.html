@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <link rel="stylesheet" href="css/mapScript.css">
+    <script src="js/Evangelisatiemap.js"></script>
   <title>De kerkevents</title>
 </head>
 <body>
@@ -60,13 +64,13 @@
   <div class="row">
       <div class="col-md-6 d-flex align-items-center justify-content-center">
           <figure class="mb-4">
-              <img src="Opdracht1/Kerk/Events/Woman's Day/2de editie/poster 2de editie.jpg" alt="Poster 2de editie" class="img-fluid" style="width: 315px; height: 390px;">
+              <img src="Opdracht1/Kerk/Events/Woman's Day/2de editie/poster 2de editie.jpg" id="postereditie2"   alt="Poster 2de editie" class="img-fluid" style="width: 315px; height: 390px;">
               <figcaption class="text-center">2de editie van Woman's day</figcaption>
           </figure>
       </div>
       <div class="col-md-6 d-flex align-items-center justify-content-center">
           <figure class="mb-4">
-              <img src="Opdracht1/Kerk/Events/Woman's Day/3de editie/poster 3de editie.jpg" alt="Poster 3de editie" class="img-fluid" style="width: 315px; height: 390px;">
+              <img src="Opdracht1/Kerk/Events/Woman's Day/3de editie/poster 3de editie.jpg" id="postereditie3"   alt="Poster 3de editie" class="img-fluid" style="width: 315px; height: 390px;">
               <figcaption class="text-center">3de editie van Woman's day</figcaption>
           </figure>
       </div>
@@ -86,27 +90,19 @@
   <div class="row">
       <div class="clearfix d-flex flex-column align-items-center">
           <h2 class="text-center display-2">Evangelisatie</h2>
-          <img src="Opdracht1/Kerk/Events/Evangelisatie/evangelisatie.jpg" alt="De kerkleden voor de evangelisatie" class="img-fluid mb-3" style="width: 580px; height: 385px;">
+          <img src="Opdracht1/Kerk/Events/Evangelisatie/evangelisatie.jpg" id="evangelisatie" alt="De kerkleden voor de evangelisatie" class="img-fluid mb-3" style="width: 580px; height: 385px;">
           <p class="col-md-12 text-center"><b>Het doel van evangelisatie</b> is om het goede nieuws van God te verspreiden onder de mensen. We delen het inzicht dat Jezus voor onze zonden gestorven is en dat Zijn koninkrijk dichtbij is. Ons streven is om zoveel mogelijk mensen terug te brengen naar God.</p>
       </div>
   </div>
 </div>
-<h2>Locaties waar de events gebeurd zijn of momenteel nog bezig zijn:</h2>
+<h2 class="display-6 text-center">Locaties waar de events gebeurd zijn of momenteel nog bezig zijn:</h2>
 
-<div class="row">
-  <div class="col-md-6 mb-4">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.9293789328967!2d4.4557899999999995!3d51.220376599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7780793375f%3A0xb6d82e9f90ccd54d!2sCogelsplein%2033%2C%202100%20Antwerpen!5e0!3m2!1snl!2sbe!4v1699100338266!5m2!1snl!2sbe" width="600" height="450" style="border:0; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p>Cogelsplein 33, 2100 Antwerpen</p>
-  </div>
-  <div class="col-md-6 mb-4">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.053571873483!2d4.40654047660281!3d51.21808877174897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6f940c50efb%3A0xc5ff40ad280380f8!2sMeir%2C%202000%20Antwerpen!5e0!3m2!1snl!2sbe!4v1700749519551!5m2!1snl!2sbe" width="600" height="450" style="border:0; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p>Meir, 2000 Antwerpen</p>
-  </div>
-  <div class="col-md-12 text-center">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.3753034101537!2d4.412367011428498!3d51.212161632111645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6fd3ee11b87%3A0xa61716a9f530c0ec!2sStadspark!5e0!3m2!1snl!2sbe!4v1700749570846!5m2!1snl!2sbe" width="600" height="450" style="border:0; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p>Stadspark</p>
-  </div>
+<div id="Evmap-container">
+  <div id="Evmap" ></div>
 </div>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+ <script src="js/Evangelisatiemap.js"></script>
 
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container-fluid">

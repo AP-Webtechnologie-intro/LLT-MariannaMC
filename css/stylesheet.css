@@ -4,11 +4,22 @@
 body{
   background: white;
 }
+
+main{
+  flex-grow: 1;
+}
+footer{
+  min-height: 250px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
 .section-padding{
   padding: 100px 0;
 }
 .carousel-item{
-  height: 45rem;
+  height: 40rem;
 
 }
 .carousel-inner::before{
@@ -61,9 +72,45 @@ height: 15rem;
     width: 50%;
     height: 15rem;
   }
+  #evangelisatie{
+    width: 50%;
+    height: 15rem;  
+  }
+
+  #postereditie2{
+    width: 50%;
+    height: 15rem;  
+  }
+  #postereditie3{
+    width: 50%;
+    height: 15rem;  
+  }
+  #gebed{
+    width: 50%;
+    height: 15rem; 
+  }
+  #pastoortijdenszondagdienst{
+    width: 50%;
+    height: 15rem; 
+  }
+  #fotoshootpastoor{
+    width: 50%;
+    height: 15rem; 
+  }
+
+  #profeet{
+    width: 50%;
+    height: 15rem; 
+  }
+  #apostel{
+    width: 50%;
+    height: 15rem; 
+  }
+
   
 }
 h3{
   font-weight: bold;
   font-size: x-large;
 }
+
