@@ -35,27 +35,3 @@ justify-content: center;
 height: 100vh;
 flex: 1;
 }
-
-@media (max-width: 767px) {
-  #map-container {
-    height: 200px; 
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  #map-container {
-    height: 300px; 
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  #map-container {
-    height: 400px; 
-  }
-}
-
-@media (min-width: 1200px) {
-  #map-container {
-    height: 500px; 
-  }
-}
