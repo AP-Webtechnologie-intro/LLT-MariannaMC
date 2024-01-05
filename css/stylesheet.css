@@ -55,60 +55,7 @@ footer{
 }
 
 
-@media  screen and  (max-width: 400px)  { 
-  #selfie{
-width: 100%;
-height: auto;
-  }
-  #vertalers{
-    width: 50%;
-    height: 15rem;
-  }
-  #hetkoor{
-    width: 50%;
-    height: 15rem;
-  }
-  #pinksteren{
-    width: 50%;
-    height: 15rem;
-  }
-  #evangelisatie{
-    width: 50%;
-    height: 15rem;  
-  }
 
-  #postereditie2{
-    width: 50%;
-    height: 15rem;  
-  }
-  #postereditie3{
-    width: 50%;
-    height: 15rem;  
-  }
-  #gebed{
-    width: 50%;
-    height: 15rem; 
-  }
-  #pastoortijdenszondagdienst{
-    width: 50%;
-    height: 15rem; 
-  }
-  #fotoshootpastoor{
-    width: 50%;
-    height: 15rem; 
-  }
-
-  #profeet{
-    width: 50%;
-    height: 15rem; 
-  }
-  #apostel{
-    width: 50%;
-    height: 15rem; 
-  }
-
-  
-}
 h3{
   font-weight: bold;
   font-size: x-large;
