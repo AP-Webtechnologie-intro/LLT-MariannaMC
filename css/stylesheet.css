@@ -87,8 +87,8 @@ h3{
   #selfie{
 max-width: 300px;
 max-height: 300px;
-margin-left: 40px;
-margin-right: 40px;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 15px;
   }
 
@@ -151,7 +151,7 @@ margin-bottom: 15px;
   }
   
   #vertalers{
-    max-width: 285px;
+    max-width: 400px;
     max-height: 325px;
     margin-left: auto;
     margin-right: auto;
@@ -165,7 +165,7 @@ margin-bottom: 15px;
     margin-bottom: 10px;
   }
   #pinksteren{
-    max-width: 285px;
+    max-width: 400px;
     max-height: 325px;
     margin-left: auto;
     margin-right: auto;
@@ -199,7 +199,8 @@ margin-bottom: 15px;
   #fotoshootpastoor{
     width: 50%;
     height: 15rem;
-    margin-left: 50px; 
+    margin-left: auto; 
+    margin-right: auto;
   }
 #figcaptionPB{
   margin-left: 45px;
