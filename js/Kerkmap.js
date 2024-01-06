@@ -8,3 +8,4 @@ L.tileLayer('https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png', {
 }).addTo(Kerkmap);
 
 var marker = L.marker([51.2204, 4.4557]).addTo(Kerkmap).bindPopup('Cogelsplein 33');
+

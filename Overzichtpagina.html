@@ -2,14 +2,16 @@
 <html lang="nl-BE">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/stylesheet.css">
-  
   <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,7 +32,7 @@
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="Overzichtpagina.htm">About</a></li>
+              <li><a class="dropdown-item" href="Overzichtpagina.html">About</a></li>
               <li><a class="dropdown-item" href="Dekerkteams.html">kerkteams</a></li>
               <li><a class="dropdown-item" href="Dekerkevents.html">Kerkevents</a></li>
               <li><a class="dropdown-item" href="Devissieenmissie.html">vissie en missie</a></li>
@@ -55,7 +57,7 @@
 <div class="container mt-4">
   <div class="row">
       <div class="col-md-6">
-          <img src="Opdracht1/Kerk/Afbeeldingen/Biddendegast.jpg" alt="Foto van biddende man" class="rounded float-left" style="width: 435px; height: 290px; margin-right: 20px;">
+          <img src="Opdracht1/Kerk/Afbeeldingen/Biddendegast.jpg" id="biddendeman"        alt="Foto van biddende man" class="rounded float-left" style="width: 435px; height: 290px; margin-right: 20px;">
       </div>
       <div class="col-md-6">
           <h2 class="text-center"> Vissie en Missie </h2>
@@ -68,40 +70,44 @@
 <div class="container mt-4">
   <div class="row">
       <div class="col-md-6">
-          <h2> De kerk-teams </h2>
+          <h2 class="text-center"> De kerk-teams </h2>
           <p>Welke teams zijn actief in de kerk en wat is hun rol? Hoe dragen ze bij aan de kerk en het lichaam van Christus?</p>
           <a href="Dekerkteams.html">
               <button type="button" class="btn btn-success mt-3"> Learn More </button>
           </a>
       </div>
       <div class="col-md-6">
-          <img src="Opdracht1/Kerk/Afbeeldingen/biddendedamen.jpg"            alt="Foto van biddende mensen tijdens de zondagdienst" class="img-fluid rounded" style="width: 435px; height: 290px; margin-right: 100px;">
+          <img src="Opdracht1/Kerk/Afbeeldingen/biddendedamen.jpg" id="gebedtijdenszondagdienst"   alt="Foto van biddende mensen tijdens de zondagdienst" class="img-fluid rounded" >
       </div>
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
 
       <div class="container mt-4">
         <div class="row">
             <div class="col-md-6">
-                <img src="Opdracht1/Kerk/Afbeeldingen/Pastoor Blanche.2.png" alt="Foto van de pastoor in een lederen jas" class="rounded float-left" style="width: 435px; height: 290px;">
+                <img src="Opdracht1/Kerk/Afbeeldingen/Pastoor Blanche.2.png" id="PB"    alt="Foto van de pastoor in een lederen jas" class="rounded float-left" style="width: 435px; height: 290px;">
             </div>
             <div class="col-md-6 ">
                 <h2 class="text-center"> De Pastoor </h2>
                 <p>We ontdekken wie de pastoor van CMR is, hoe ze tot herder is geroepen en wat haar rol in Christus en  de kerk inhoudt.</p>
-                <a href="DePastoor.html"> <button type="button" class="btn btn-success mt3"> Learn More </button> </a>
+                <a href="DePastoor.html"> <button type="button" class="btn btn-success mt-3"> Learn More </button> </a>
             </div>
         </div>
       </div>
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-6">
-            <h2> De Apostel </h2>
+            <h2 class="text-center"> De Apostel </h2>
             <p>Wie is de apostel? Wat is zijn functie binnen de kerk en het lichaam van Christus? Hoe biedt hij ondersteuning aan de pastoor?</p>
-            <a href="DeApostel.html"> <button  type="button" class="btn btn-success mt3"> Learn More </button> </a>
+            <a href="DeApostel.html"> <button  type="button" class="btn btn-success mt-3"> Learn More </button> </a>
         </div>
             <div class="col-md-6 ">
-                <img src="Opdracht1/Kerk/Afbeeldingen/Apostel.jpg" alt="Foto van de Apostel tijdens de zondagdienst" class="img-fluid rounded" style="width: 435px; height: 290px;">
+                <img src="Opdracht1/Kerk/Afbeeldingen/Apostel.jpg" id="apostel" alt="Foto van de Apostel tijdens de zondagdienst" class="img-fluid rounded">
             </div>
         </div>
       </div>  
@@ -111,13 +117,13 @@
       <div class="container mt-4">
         <div class="row">
             <div class="col-md-6">
-                <img src="Opdracht1/Kerk/Afbeeldingen/Profeet Meschac.png" alt="Foto van de profeet tijdens de zondagdienst" class="rounded float-left" style="width: 435px; height: 290px;">
+                <img src="Opdracht1/Kerk/Afbeeldingen/Profeet Meschac.png" id="profeet" alt="Foto van de profeet tijdens de zondagdienst" class="rounded float-left" style="width: 435px; height: 290px;">
             </div>
             <div class="col-md-6">
-                <h2> De Profeet </h2>
+                <h2 class="text-center"> De Profeet </h2>
                 <p>Wie is verantwoordelijk voor de functie van profeet in onze kerk en wat is zijn rol, 
                   vooral in samenwerking met de apostel? Op welke manier draagt hij bij aan de ondersteuning van de pastoor?.</p>
-                <a href="DeProfeet.html"> <button type="button" class="btn btn-success mt3"> Learn More </button> </a>
+                <a href="DeProfeet.html"> <button type="button" class="btn btn-success mt-3"> Learn More </button> </a>
             </div>
         </div>
       </div> 
@@ -125,55 +131,47 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-6">
-            <h2> De kerk-events</h2>
+            <h2 class="text-center"> De kerk-events</h2>
             <p>Als kerk hebben we bijeenkomsten georganiseerd om 
               mensen te betrekken bij de gemeente en om hen dichter bij Christus te brengen. Hieronder vind je een overzicht van deze bijeenkomsten.</p>
-              <a href="Dekerkevents.html" class="mt-3">
-                <button type="button" class="btn btn-success">Learn More</button>
+              <a href="Dekerkevents.html" >
+                <button type="button" class="btn btn-success mt-3">Learn More</button>
               </a>
               
         </div>
             <div class="col-md-6">
-                <img src="Opdracht1/Kerk/Afbeeldingen/Woman'sDay.jpg" alt="Foto van het koor tijdens woman's day" class="img-fluid rounded" style="width: 435px; height: 290px;">
+                <img src="Opdracht1/Kerk/Afbeeldingen/Woman'sDay.jpg"  id="WomansDay"   alt="Foto van het koor tijdens woman's day" class="img-fluid rounded">
             </div>
         </div>
       </div> 
       <hr>
 
-      <footer class="footer mt-auto py-3 bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5 class="text-start display-3">Contact Us</h5>
-                    <p class="text-start">Cogelsplein 33, 2100 Antwerpen</p>
-                    <p class="text-start"><a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a></p>
-                </div>
-    
-                <div class="col-md-6">
-                    <div>
-                        <h5 class="text-end display-3">Socials</h5>
-                    </div>
-                    <ul class="list-inline socials text-end">
-                        <li class="list-inline-item">
-                            <a href="https://www.instagram.com/cmrchurch/?next=undefined" target="_blank">
-                                <i class="bi bi-instagram fs-3"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/eglise.cmr" target="_blank">
-                                <i class="bi bi-facebook fs-3"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.tiktok.com/@cmrchurch?_t=8cD7Wcluvwx&_r=1" target="_blank">
-                                <i class="bi bi-tiktok fs-3"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      <footer class="col-md-3 border-start ps-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+        <h2 class="display-3 text-uppercase fs-4 fw-bolder pt-3">Contact Us</h2>
+        <p>email: <a href="mailto:cmrkerk@gmail.com">cmrkerk@gmail.com</a><br>
+        adres: Cogelsplein 33, 2100 Antwerpen</p>
+        
+        <h2 class="display-3 text-uppercase fs-4 fw-bolder pt-3">Socials</h2>
+        <ul class="list-inline socials">
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/cmrchurch/?next=undefined" target="_blank">
+                    <i class="bi bi-instagram fs-3"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/eglise.cmr" target="_blank">
+                    <i class="bi bi-facebook fs-3"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.tiktok.com/@cmrchurch?_t=8cD7Wcluvwx&_r=1" target="_blank">
+                    <i class="bi bi-tiktok fs-3"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
+    
+      
     
 
 </body>

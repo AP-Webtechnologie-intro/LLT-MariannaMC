@@ -31,6 +31,10 @@ footer{
   left: 0;
   background: rgba(0,0,0,0,7);
   z-index: 1;
+  
+}
+.carousel-inner{
+  margin-bottom: 0; 
 }
 .navbar-nav{
   font-size: 15px;
@@ -53,11 +57,151 @@ footer{
 .about-text{
   font-size: 25px;
 }
-
-
+#gebedtijdenszondagdienst{
+  margin-left: 250px;
+  width: 435px; 
+  height: 290px; 
+}
+#apostel{
+  margin-left: 250px;
+  width: 435px; 
+  height: 290px;  
+}
+#WomansDay{
+  margin-left: 250px;
+  width: 435px; 
+  height: 290px; 
+}
 
 h3{
   font-weight: bold;
   font-size: x-large;
 }
+
+@media  screen and  (max-width: 767px)  { /*mobile*/
+  #selfie{
+max-width: 300px;
+max-height: 300px;
+margin-left: 40px;
+margin-bottom: 15px;
+  }
+
+  #carouselExampleCaptions {
+    margin-bottom: 0;
+  }
+  #biddendeman{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #gebedtijdenszondagdienst{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #PB{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  #apostel{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #profeet{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #WomansDay{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  .btn btn-success, .mt-3 {
+    margin-left: 135px;
+    margin-bottom: 15px;
+  }
+  #hoofdtitelteams{
+    font-size: 25px;
+  }
+  #subtitelteams{
+    font-size: 15px;
+  }
+  
+  #vertalers{
+    max-width: 285px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #hetkoor{
+    max-width: 400px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #pinksteren{
+    max-width: 285px;
+    max-height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #evangelisatie{
+    width: 50%;
+    height: 15rem;  
+  }
+
+  #postereditie2{
+    width: 25%;
+    height: 15rem;  
+  }
+  #postereditie3{
+    width: 50%;
+    height: 15rem;  
+  }
+  #gebed{
+    max-width: 325px;
+    max-height: 325px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  #pastoortijdenszondagdienst{
+    max-width: 325px;
+    max-height: 325px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  #fotoshootpastoor{
+    width: 50%;
+    height: 15rem; 
+  }
+
+  #profeet{
+    width: 50%;
+    height: 15rem; 
+  }
+ 
+
+  
+}
+
 
