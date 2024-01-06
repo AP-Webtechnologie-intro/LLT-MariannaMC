@@ -120,7 +120,7 @@
   </section>
 
   <div class="container mt-5">
-    <h2 class="fs-1 text-center"> Week Planning </h2>
+    <h2 class="display-3 text-uppercase fs-4 fw-bolder text-center"> Week Planning </h2>
     <table class="table table-bordered">
       <tr>
         <th>Dag</th>
@@ -150,6 +150,17 @@
     </table>
   </div>
 
+  <div>
+    <h2 class="display-2 text-uppercase fs-4 fw-bolder text-center">Bijbelvers zoeken</h2>
+    <div class="mb-3">
+        <label for="verseInput" class="form-label display-2 text-uppercase fs-4 fw-bolder text-center" >Enter Verse:</label>
+        <input type="text" id="verseInput" class="form-control form-control-sm" placeholder="e.g., John 3:16">
+    </div>
+      <button onclick="searchVerse()" class="btn btn-primary">Search</button>
+    <div id="verseDisplay" class="mt-3"></div>
+</div>
+
+<script src="js/BijbelversAPI.js"></script>
   <hr>
 
   <footer class="col-md-3 border-start ps-5 d-flex flex-column justify-content-center align-items-center align-items-md-start">
